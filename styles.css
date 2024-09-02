@@ -1,0 +1,104 @@
+/* General page styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #0056b3;
+}
+
+/* Navigation menu styling */
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0056b3;
+}
+
+/* Main content styling */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    color: #007BFF;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    line-height: 1.6;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+/* Button styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional custom classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
